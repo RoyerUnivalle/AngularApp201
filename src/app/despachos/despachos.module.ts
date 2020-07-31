@@ -6,12 +6,15 @@ import { GestionarDespachosComponent } from './gestionar-despachos/gestionar-des
 import { AddDeliveryComponent } from './add-delivery/add-delivery.component';
 import { RemoveDeliveryComponent } from './remove-delivery/remove-delivery.component';
 
+// import { ToastrModule } from 'ngx-toastr';
+
 
 @NgModule({
   declarations: [GestionarDespachosComponent, AddDeliveryComponent, RemoveDeliveryComponent],
   imports: [
     CommonModule,
-    DespachosRoutingModule
+    DespachosRoutingModule,
+    // ToastrModule.forRoot()
   ]
 })
 export class DespachosModule { }
