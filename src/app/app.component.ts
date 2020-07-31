@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'routingApp';
+  nombre = 'royer';
+  iterador: number;
+
+  estudiantes = ['Alejandro', 'Gian Luca', 'Steven posada', 'Daniel', 'Jorge', 'Fernand', 'Johan', 'Marlon', 'Royer'];
+
+  viewStudent(name, i) {
+    this.iterador = i;
+
+  }
 }
